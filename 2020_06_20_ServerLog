@@ -1,0 +1,697 @@
+2020-06-20 19:34:57.147061 [info]: timer tick
+2020-06-20 19:35:02.147142 [info]: timer tick
+2020-06-20 19:35:07.147210 [info]: timer tick
+2020-06-20 19:35:12.147263 [info]: timer tick
+2020-06-20 19:35:17.147324 [info]: timer tick
+2020-06-20 19:35:22.147409 [info]: timer tick
+2020-06-20 19:35:27.147487 [info]: timer tick
+2020-06-20 19:35:32.147528 [info]: timer tick
+2020-06-20 19:35:37.147611 [info]: timer tick
+2020-06-20 19:35:42.147702 [info]: timer tick
+2020-06-20 19:35:47.147783 [info]: timer tick
+2020-06-20 19:35:52.147824 [info]: timer tick
+2020-06-20 19:35:57.147908 [info]: timer tick
+2020-06-20 19:36:39.009595 [info]: timer tick
+2020-06-20 19:36:43.621461 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:36:43.621539 [info]: adjust timer once
+2020-06-20 19:36:43.621577 [info]: GET / HTTP/1.1
+2020-06-20 19:36:43.621635 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:36:43.621656 [info]: Connection: keep-alive
+2020-06-20 19:36:43.621672 [info]: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:43.621686 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:43.621702 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:43.621717 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:43.621733 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:43.621748 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:43.621764 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:43.621780 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:43.621794 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:43.621810 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:43.621824 [info]: 
+2020-06-20 19:36:43.621883 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:36:43.621903 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2020-06-20 19:36:43.621920 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2020-06-20 19:36:43.621935 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2020-06-20 19:36:43.622064 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:43.622098 [info]: adjust timer once
+2020-06-20 19:36:43.883598 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:36:43.883666 [info]: adjust timer once
+2020-06-20 19:36:43.883710 [info]: GET /favicon.ico HTTP/1.1
+2020-06-20 19:36:43.883764 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:36:43.883773 [info]: Connection: keep-alive
+2020-06-20 19:36:43.883780 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:43.883788 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:43.883795 [info]: Accept: image/webp,image/apng,image/*,*/*;q=0.8
+2020-06-20 19:36:43.883802 [info]: oop!unknow header: Accept: image/webp,image/apng,image/*,*/*;q=0.8
+2020-06-20 19:36:43.883809 [info]: Referer: http://192.168.1.101:9006/
+2020-06-20 19:36:43.883815 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/
+2020-06-20 19:36:43.883822 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:43.883828 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:43.883834 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:43.883841 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:43.883847 [info]: 
+2020-06-20 19:36:43.883874 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:36:43.883882 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2020-06-20 19:36:43.883897 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2020-06-20 19:36:43.883904 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2020-06-20 19:36:43.883987 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:43.884010 [info]: adjust timer once
+2020-06-20 19:36:44.009662 [info]: timer tick
+2020-06-20 19:36:49.009714 [info]: timer tick
+2020-06-20 19:36:49.578426 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:36:49.578489 [info]: adjust timer once
+2020-06-20 19:36:49.578537 [info]: POST /1 HTTP/1.1
+2020-06-20 19:36:49.578592 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:36:49.578603 [info]: Connection: keep-alive
+2020-06-20 19:36:49.578611 [info]: Content-Length: 0
+2020-06-20 19:36:49.578624 [info]: Cache-Control: max-age=0
+2020-06-20 19:36:49.578633 [info]: oop!unknow header: Cache-Control: max-age=0
+2020-06-20 19:36:49.578641 [info]: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:49.578649 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:49.578657 [info]: Origin: http://192.168.1.101:9006
+2020-06-20 19:36:49.578665 [info]: oop!unknow header: Origin: http://192.168.1.101:9006
+2020-06-20 19:36:49.578673 [info]: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:36:49.578681 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:36:49.578692 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:49.578700 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:49.578712 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:49.578719 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:49.578729 [info]: Referer: http://192.168.1.101:9006/
+2020-06-20 19:36:49.578737 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/
+2020-06-20 19:36:49.578745 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:49.578753 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:49.578761 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:49.578769 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:49.578776 [info]: 
+2020-06-20 19:36:49.578809 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:36:49.578818 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2020-06-20 19:36:49.578826 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2020-06-20 19:36:49.578835 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2020-06-20 19:36:49.578944 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:49.578978 [info]: adjust timer once
+2020-06-20 19:36:54.009806 [info]: timer tick
+2020-06-20 19:36:56.307612 [info]: close fd 16
+2020-06-20 19:36:56.310869 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:36:56.310915 [info]: adjust timer once
+2020-06-20 19:36:56.310957 [info]: POST /2CGISQL.cgi HTTP/1.1
+2020-06-20 19:36:56.311036 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:36:56.311060 [info]: Connection: keep-alive
+2020-06-20 19:36:56.311078 [info]: Content-Length: 23
+2020-06-20 19:36:56.311095 [info]: Cache-Control: max-age=0
+2020-06-20 19:36:56.311112 [info]: oop!unknow header: Cache-Control: max-age=0
+2020-06-20 19:36:56.311128 [info]: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:56.311145 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:56.311161 [info]: Origin: http://192.168.1.101:9006
+2020-06-20 19:36:56.311177 [info]: oop!unknow header: Origin: http://192.168.1.101:9006
+2020-06-20 19:36:56.311194 [info]: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:36:56.311210 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:36:56.311241 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:56.311261 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:56.311280 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:56.311296 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:56.311313 [info]: Referer: http://192.168.1.101:9006/1
+2020-06-20 19:36:56.311330 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/1
+2020-06-20 19:36:56.311347 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:56.311363 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:56.311382 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:56.311398 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:56.311414 [info]: 
+2020-06-20 19:36:56.311430 [info]: user=zp&password=123456
+2020-06-20 19:36:56.311497 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:36:56.311520 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+
+2020-06-20 19:36:56.311539 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+Connection:keep-alive
+
+2020-06-20 19:36:56.311557 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+Connection:keep-alive
+
+
+2020-06-20 19:36:56.311636 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:56.311654 [info]: adjust timer once
+2020-06-20 19:36:57.980044 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:36:57.980116 [info]: adjust timer once
+2020-06-20 19:36:57.980139 [info]: POST /5 HTTP/1.1
+2020-06-20 19:36:57.980213 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:36:57.980228 [info]: Connection: keep-alive
+2020-06-20 19:36:57.980239 [info]: Content-Length: 0
+2020-06-20 19:36:57.980251 [info]: Cache-Control: max-age=0
+2020-06-20 19:36:57.980262 [info]: oop!unknow header: Cache-Control: max-age=0
+2020-06-20 19:36:57.980273 [info]: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:57.980283 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2020-06-20 19:36:57.980294 [info]: Origin: http://192.168.1.101:9006
+2020-06-20 19:36:57.980305 [info]: oop!unknow header: Origin: http://192.168.1.101:9006
+2020-06-20 19:36:57.980317 [info]: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:36:57.980327 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:36:57.980343 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:57.980354 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:57.980369 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:57.980380 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:36:57.980392 [info]: Referer: http://192.168.1.101:9006/2CGISQL.cgi
+2020-06-20 19:36:57.980403 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/2CGISQL.cgi
+2020-06-20 19:36:57.980416 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:57.980426 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:57.980438 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:57.980449 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:57.980459 [info]: 
+2020-06-20 19:36:57.980497 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:36:57.980520 [info]: request:HTTP/1.1 200 OK
+Content-Length:360
+
+2020-06-20 19:36:57.980533 [info]: request:HTTP/1.1 200 OK
+Content-Length:360
+Connection:keep-alive
+
+2020-06-20 19:36:57.980545 [info]: request:HTTP/1.1 200 OK
+Content-Length:360
+Connection:keep-alive
+
+
+2020-06-20 19:36:57.980662 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:57.980690 [info]: adjust timer once
+2020-06-20 19:36:58.061883 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:36:58.061931 [info]: adjust timer once
+2020-06-20 19:36:58.061987 [info]: GET /xxx.jpg HTTP/1.1
+2020-06-20 19:36:58.062053 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:36:58.062068 [info]: Connection: keep-alive
+2020-06-20 19:36:58.062080 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:58.062093 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:36:58.062105 [info]: Accept: image/webp,image/apng,image/*,*/*;q=0.8
+2020-06-20 19:36:58.062116 [info]: oop!unknow header: Accept: image/webp,image/apng,image/*,*/*;q=0.8
+2020-06-20 19:36:58.062127 [info]: Referer: http://192.168.1.101:9006/5
+2020-06-20 19:36:58.062138 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/5
+2020-06-20 19:36:58.062149 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:58.062160 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:36:58.062171 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:58.062181 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:36:58.062191 [info]: 
+2020-06-20 19:36:58.062230 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:36:58.062243 [info]: request:HTTP/1.1 200 OK
+Content-Length:6007312
+
+2020-06-20 19:36:58.062254 [info]: request:HTTP/1.1 200 OK
+Content-Length:6007312
+Connection:keep-alive
+
+2020-06-20 19:36:58.062266 [info]: request:HTTP/1.1 200 OK
+Content-Length:6007312
+Connection:keep-alive
+
+
+2020-06-20 19:36:58.062462 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.062495 [info]: adjust timer once
+2020-06-20 19:36:58.068163 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.068195 [info]: adjust timer once
+2020-06-20 19:36:58.076128 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.076159 [info]: adjust timer once
+2020-06-20 19:36:58.081517 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.081541 [info]: adjust timer once
+2020-06-20 19:36:58.089002 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.089033 [info]: adjust timer once
+2020-06-20 19:36:58.095333 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.095364 [info]: adjust timer once
+2020-06-20 19:36:58.101389 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.101423 [info]: adjust timer once
+2020-06-20 19:36:58.108155 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.108184 [info]: adjust timer once
+2020-06-20 19:36:58.113873 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.113906 [info]: adjust timer once
+2020-06-20 19:36:58.123165 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.123195 [info]: adjust timer once
+2020-06-20 19:36:58.130220 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.130249 [info]: adjust timer once
+2020-06-20 19:36:58.135295 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.135326 [info]: adjust timer once
+2020-06-20 19:36:58.141841 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.141871 [info]: adjust timer once
+2020-06-20 19:36:58.148601 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.148630 [info]: adjust timer once
+2020-06-20 19:36:58.157159 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.157190 [info]: adjust timer once
+2020-06-20 19:36:58.163259 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.163298 [info]: adjust timer once
+2020-06-20 19:36:58.169781 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.169810 [info]: adjust timer once
+2020-06-20 19:36:58.176245 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.176276 [info]: adjust timer once
+2020-06-20 19:36:58.184239 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.184269 [info]: adjust timer once
+2020-06-20 19:36:58.190994 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.191026 [info]: adjust timer once
+2020-06-20 19:36:58.201297 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.201327 [info]: adjust timer once
+2020-06-20 19:36:58.208903 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.208934 [info]: adjust timer once
+2020-06-20 19:36:58.216116 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.216150 [info]: adjust timer once
+2020-06-20 19:36:58.222781 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.222813 [info]: adjust timer once
+2020-06-20 19:36:58.229476 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.229507 [info]: adjust timer once
+2020-06-20 19:36:58.235753 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.235784 [info]: adjust timer once
+2020-06-20 19:36:58.242143 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.242175 [info]: adjust timer once
+2020-06-20 19:36:58.250219 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.250251 [info]: adjust timer once
+2020-06-20 19:36:58.260475 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.260507 [info]: adjust timer once
+2020-06-20 19:36:58.267586 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.267616 [info]: adjust timer once
+2020-06-20 19:36:58.275324 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.275354 [info]: adjust timer once
+2020-06-20 19:36:58.281494 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.281524 [info]: adjust timer once
+2020-06-20 19:36:58.289142 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.289173 [info]: adjust timer once
+2020-06-20 19:36:58.297259 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.297289 [info]: adjust timer once
+2020-06-20 19:36:58.303052 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.303084 [info]: adjust timer once
+2020-06-20 19:36:58.313220 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.313250 [info]: adjust timer once
+2020-06-20 19:36:58.322121 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.322150 [info]: adjust timer once
+2020-06-20 19:36:58.331375 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.331405 [info]: adjust timer once
+2020-06-20 19:36:58.338668 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.338696 [info]: adjust timer once
+2020-06-20 19:36:58.345663 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.345695 [info]: adjust timer once
+2020-06-20 19:36:58.351998 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.352038 [info]: adjust timer once
+2020-06-20 19:36:58.359050 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.359086 [info]: adjust timer once
+2020-06-20 19:36:58.365240 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.365275 [info]: adjust timer once
+2020-06-20 19:36:58.372678 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.372714 [info]: adjust timer once
+2020-06-20 19:36:58.379705 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.379737 [info]: adjust timer once
+2020-06-20 19:36:58.385941 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.385973 [info]: adjust timer once
+2020-06-20 19:36:58.392955 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.392987 [info]: adjust timer once
+2020-06-20 19:36:58.398167 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.398209 [info]: adjust timer once
+2020-06-20 19:36:58.405740 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.405772 [info]: adjust timer once
+2020-06-20 19:36:58.414777 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.414813 [info]: adjust timer once
+2020-06-20 19:36:58.421523 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.421558 [info]: adjust timer once
+2020-06-20 19:36:58.427318 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.427354 [info]: adjust timer once
+2020-06-20 19:36:58.433990 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.434031 [info]: adjust timer once
+2020-06-20 19:36:58.440387 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.440436 [info]: adjust timer once
+2020-06-20 19:36:58.446005 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.446052 [info]: adjust timer once
+2020-06-20 19:36:58.451920 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.451974 [info]: adjust timer once
+2020-06-20 19:36:58.460224 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.460269 [info]: adjust timer once
+2020-06-20 19:36:58.466062 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.466107 [info]: adjust timer once
+2020-06-20 19:36:58.473652 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.473717 [info]: adjust timer once
+2020-06-20 19:36:58.479057 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.479104 [info]: adjust timer once
+2020-06-20 19:36:58.485387 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.485441 [info]: adjust timer once
+2020-06-20 19:36:58.491490 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.491542 [info]: adjust timer once
+2020-06-20 19:36:58.497800 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.497854 [info]: adjust timer once
+2020-06-20 19:36:58.503414 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.503463 [info]: adjust timer once
+2020-06-20 19:36:58.511713 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.511767 [info]: adjust timer once
+2020-06-20 19:36:58.517186 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.517233 [info]: adjust timer once
+2020-06-20 19:36:58.523102 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.523143 [info]: adjust timer once
+2020-06-20 19:36:58.529928 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.529965 [info]: adjust timer once
+2020-06-20 19:36:58.535984 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.536021 [info]: adjust timer once
+2020-06-20 19:36:58.543324 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.543362 [info]: adjust timer once
+2020-06-20 19:36:58.550695 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.550736 [info]: adjust timer once
+2020-06-20 19:36:58.558545 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.558585 [info]: adjust timer once
+2020-06-20 19:36:58.565137 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.565176 [info]: adjust timer once
+2020-06-20 19:36:58.573219 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.573254 [info]: adjust timer once
+2020-06-20 19:36:58.580026 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.580064 [info]: adjust timer once
+2020-06-20 19:36:58.587830 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.587867 [info]: adjust timer once
+2020-06-20 19:36:58.594442 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.594481 [info]: adjust timer once
+2020-06-20 19:36:58.603150 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.603188 [info]: adjust timer once
+2020-06-20 19:36:58.608581 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.608619 [info]: adjust timer once
+2020-06-20 19:36:58.614664 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.614703 [info]: adjust timer once
+2020-06-20 19:36:58.620938 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.620977 [info]: adjust timer once
+2020-06-20 19:36:58.627468 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.627507 [info]: adjust timer once
+2020-06-20 19:36:58.633471 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.633493 [info]: adjust timer once
+2020-06-20 19:36:58.639766 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.639801 [info]: adjust timer once
+2020-06-20 19:36:58.645067 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.645094 [info]: adjust timer once
+2020-06-20 19:36:58.652438 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.652477 [info]: adjust timer once
+2020-06-20 19:36:58.658600 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.658635 [info]: adjust timer once
+2020-06-20 19:36:58.665244 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.665281 [info]: adjust timer once
+2020-06-20 19:36:58.671169 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.671194 [info]: adjust timer once
+2020-06-20 19:36:58.677839 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.677874 [info]: adjust timer once
+2020-06-20 19:36:58.684642 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.684677 [info]: adjust timer once
+2020-06-20 19:36:58.692190 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:36:58.692226 [info]: adjust timer once
+2020-06-20 19:36:59.009890 [info]: timer tick
+2020-06-20 19:37:04.009973 [info]: timer tick
+2020-06-20 19:37:07.093408 [info]: close fd 16
+2020-06-20 19:37:08.880345 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:37:08.880400 [info]: adjust timer once
+2020-06-20 19:37:08.880448 [info]: POST /6 HTTP/1.1
+2020-06-20 19:37:08.880521 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:37:08.880536 [info]: Connection: keep-alive
+2020-06-20 19:37:08.880547 [info]: Content-Length: 0
+2020-06-20 19:37:08.880559 [info]: Cache-Control: max-age=0
+2020-06-20 19:37:08.880570 [info]: oop!unknow header: Cache-Control: max-age=0
+2020-06-20 19:37:08.880582 [info]: Upgrade-Insecure-Requests: 1
+2020-06-20 19:37:08.880593 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2020-06-20 19:37:08.880604 [info]: Origin: http://192.168.1.101:9006
+2020-06-20 19:37:08.880614 [info]: oop!unknow header: Origin: http://192.168.1.101:9006
+2020-06-20 19:37:08.880625 [info]: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:37:08.880636 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2020-06-20 19:37:08.880648 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:37:08.880659 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:37:08.880675 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:37:08.880686 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-06-20 19:37:08.880698 [info]: Referer: http://192.168.1.101:9006/2CGISQL.cgi
+2020-06-20 19:37:08.880709 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/2CGISQL.cgi
+2020-06-20 19:37:08.880721 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:37:08.880731 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:37:08.880743 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:37:08.880754 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:37:08.880765 [info]: 
+2020-06-20 19:37:08.880803 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:37:08.880816 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+
+2020-06-20 19:37:08.880828 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+Connection:keep-alive
+
+2020-06-20 19:37:08.880856 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+Connection:keep-alive
+
+
+2020-06-20 19:37:08.880960 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:08.880991 [info]: adjust timer once
+2020-06-20 19:37:08.996634 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:37:08.996700 [info]: adjust timer once
+2020-06-20 19:37:08.996749 [info]: GET /xxx.mp4 HTTP/1.1
+2020-06-20 19:37:08.996820 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:37:08.996835 [info]: Connection: keep-alive
+2020-06-20 19:37:08.996848 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:37:08.996860 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:37:08.996872 [info]: Accept-Encoding: identity;q=1, *;q=0
+2020-06-20 19:37:08.996883 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2020-06-20 19:37:08.996894 [info]: Accept: */*
+2020-06-20 19:37:08.996905 [info]: oop!unknow header: Accept: */*
+2020-06-20 19:37:08.996916 [info]: Referer: http://192.168.1.101:9006/6
+2020-06-20 19:37:08.996926 [info]: oop!unknow header: Referer: http://192.168.1.101:9006/6
+2020-06-20 19:37:08.996937 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:37:08.996947 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:37:08.996958 [info]: Range: bytes=0-
+2020-06-20 19:37:08.996969 [info]: oop!unknow header: Range: bytes=0-
+2020-06-20 19:37:08.996979 [info]: 
+2020-06-20 19:37:08.997020 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:37:08.997033 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+
+2020-06-20 19:37:08.997045 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+2020-06-20 19:37:08.997056 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+
+2020-06-20 19:37:08.997219 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:08.997249 [info]: adjust timer once
+2020-06-20 19:37:09.003197 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.003234 [info]: adjust timer once
+2020-06-20 19:37:09.009471 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.009510 [info]: adjust timer once
+2020-06-20 19:37:09.010049 [info]: timer tick
+2020-06-20 19:37:09.015888 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.015924 [info]: adjust timer once
+2020-06-20 19:37:09.022527 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.022562 [info]: adjust timer once
+2020-06-20 19:37:09.030194 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.030231 [info]: adjust timer once
+2020-06-20 19:37:09.036330 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.036366 [info]: adjust timer once
+2020-06-20 19:37:09.044132 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.044168 [info]: adjust timer once
+2020-06-20 19:37:09.051392 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.051432 [info]: adjust timer once
+2020-06-20 19:37:09.060429 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.060462 [info]: adjust timer once
+2020-06-20 19:37:09.067830 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.067878 [info]: adjust timer once
+2020-06-20 19:37:09.077349 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.077423 [info]: adjust timer once
+2020-06-20 19:37:09.081769 [info]: deal with the client(192.168.1.191)
+2020-06-20 19:37:09.081817 [info]: adjust timer once
+2020-06-20 19:37:09.081834 [info]: GET /xxx.mp4 HTTP/1.1
+2020-06-20 19:37:09.081872 [info]: Host: 192.168.1.101:9006
+2020-06-20 19:37:09.081886 [info]: Connection: keep-alive
+2020-06-20 19:37:09.081899 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:37:09.081921 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-20 19:37:09.081932 [info]: Accept: */*
+2020-06-20 19:37:09.081941 [info]: oop!unknow header: Accept: */*
+2020-06-20 19:37:09.081951 [info]: Accept-Encoding: gzip, deflate
+2020-06-20 19:37:09.081960 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2020-06-20 19:37:09.081970 [info]: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:37:09.081980 [info]: oop!unknow header: Accept-Language: en,zh-CN;q=0.9,zh;q=0.8
+2020-06-20 19:37:09.081989 [info]: 
+2020-06-20 19:37:09.082022 [info]: request:HTTP/1.1 200 OK
+
+2020-06-20 19:37:09.082033 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+
+2020-06-20 19:37:09.082043 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+2020-06-20 19:37:09.082054 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+
+2020-06-20 19:37:09.082178 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.082198 [info]: adjust timer once
+2020-06-20 19:37:09.089199 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.089242 [info]: adjust timer once
+2020-06-20 19:37:09.089286 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.089299 [info]: adjust timer once
+2020-06-20 19:37:09.097419 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.097467 [info]: adjust timer once
+2020-06-20 19:37:09.106935 [info]: close fd 16
+2020-06-20 19:37:09.107988 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.108021 [info]: adjust timer once
+2020-06-20 19:37:09.116863 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.116899 [info]: adjust timer once
+2020-06-20 19:37:09.122182 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.122218 [info]: adjust timer once
+2020-06-20 19:37:09.127164 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.127201 [info]: adjust timer once
+2020-06-20 19:37:09.139740 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.139773 [info]: adjust timer once
+2020-06-20 19:37:09.153229 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.153265 [info]: adjust timer once
+2020-06-20 19:37:09.162196 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.162229 [info]: adjust timer once
+2020-06-20 19:37:09.168446 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.168479 [info]: adjust timer once
+2020-06-20 19:37:09.183533 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.183567 [info]: adjust timer once
+2020-06-20 19:37:09.198479 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.198512 [info]: adjust timer once
+2020-06-20 19:37:09.214656 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.214692 [info]: adjust timer once
+2020-06-20 19:37:09.222493 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.222527 [info]: adjust timer once
+2020-06-20 19:37:09.231423 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.231459 [info]: adjust timer once
+2020-06-20 19:37:09.240343 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.240377 [info]: adjust timer once
+2020-06-20 19:37:09.248753 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.248790 [info]: adjust timer once
+2020-06-20 19:37:09.255851 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.255887 [info]: adjust timer once
+2020-06-20 19:37:09.267254 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.267290 [info]: adjust timer once
+2020-06-20 19:37:09.275936 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.275973 [info]: adjust timer once
+2020-06-20 19:37:09.290176 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.290211 [info]: adjust timer once
+2020-06-20 19:37:09.297461 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.297499 [info]: adjust timer once
+2020-06-20 19:37:09.310619 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.310654 [info]: adjust timer once
+2020-06-20 19:37:09.323171 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.323205 [info]: adjust timer once
+2020-06-20 19:37:09.335673 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.335710 [info]: adjust timer once
+2020-06-20 19:37:09.348480 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.348520 [info]: adjust timer once
+2020-06-20 19:37:09.362372 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.362411 [info]: adjust timer once
+2020-06-20 19:37:09.380260 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.380305 [info]: adjust timer once
+2020-06-20 19:37:09.387785 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.387823 [info]: adjust timer once
+2020-06-20 19:37:09.400364 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.400403 [info]: adjust timer once
+2020-06-20 19:37:09.411463 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.411499 [info]: adjust timer once
+2020-06-20 19:37:09.419130 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.419177 [info]: adjust timer once
+2020-06-20 19:37:09.430076 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.430113 [info]: adjust timer once
+2020-06-20 19:37:09.442328 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.442368 [info]: adjust timer once
+2020-06-20 19:37:09.454730 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.454769 [info]: adjust timer once
+2020-06-20 19:37:09.467892 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.467929 [info]: adjust timer once
+2020-06-20 19:37:09.474920 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.474955 [info]: adjust timer once
+2020-06-20 19:37:09.488837 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.488879 [info]: adjust timer once
+2020-06-20 19:37:09.500730 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.500771 [info]: adjust timer once
+2020-06-20 19:37:09.507747 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.507783 [info]: adjust timer once
+2020-06-20 19:37:09.520162 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.520202 [info]: adjust timer once
+2020-06-20 19:37:09.532118 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.532157 [info]: adjust timer once
+2020-06-20 19:37:09.539173 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.539209 [info]: adjust timer once
+2020-06-20 19:37:09.551931 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.551970 [info]: adjust timer once
+2020-06-20 19:37:09.564566 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.564608 [info]: adjust timer once
+2020-06-20 19:37:09.577563 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.577605 [info]: adjust timer once
+2020-06-20 19:37:09.592529 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.592571 [info]: adjust timer once
+2020-06-20 19:37:09.605228 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.605276 [info]: adjust timer once
+2020-06-20 19:37:09.619876 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.619919 [info]: adjust timer once
+2020-06-20 19:37:09.626238 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.626271 [info]: adjust timer once
+2020-06-20 19:37:09.640801 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.640844 [info]: adjust timer once
+2020-06-20 19:37:09.651675 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.651713 [info]: adjust timer once
+2020-06-20 19:37:09.663833 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.663873 [info]: adjust timer once
+2020-06-20 19:37:09.676212 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.676251 [info]: adjust timer once
+2020-06-20 19:37:09.689610 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.689661 [info]: adjust timer once
+2020-06-20 19:37:09.703489 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.703530 [info]: adjust timer once
+2020-06-20 19:37:09.714826 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.714866 [info]: adjust timer once
+2020-06-20 19:37:09.728248 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.728289 [info]: adjust timer once
+2020-06-20 19:37:09.741038 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.741080 [info]: adjust timer once
+2020-06-20 19:37:09.753496 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.753552 [info]: adjust timer once
+2020-06-20 19:37:09.772612 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.772669 [info]: adjust timer once
+2020-06-20 19:37:09.786091 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.786140 [info]: adjust timer once
+2020-06-20 19:37:09.801252 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.801304 [info]: adjust timer once
+2020-06-20 19:37:09.815679 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.815739 [info]: adjust timer once
+2020-06-20 19:37:09.829241 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.829282 [info]: adjust timer once
+2020-06-20 19:37:09.841982 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.842019 [info]: adjust timer once
+2020-06-20 19:37:09.856205 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.856272 [info]: adjust timer once
+2020-06-20 19:37:09.870335 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.870392 [info]: adjust timer once
+2020-06-20 19:37:09.881880 [info]: send data to the client(192.168.1.191)
+2020-06-20 19:37:09.881933 [info]: adjust timer once
+2020-06-20 19:37:14.010108 [info]: timer tick
+2020-06-20 19:37:19.010195 [info]: timer tick
+2020-06-20 19:37:24.010273 [info]: timer tick
+2020-06-20 19:37:24.260940 [info]: close fd 17
+2020-06-20 19:37:29.010355 [info]: timer tick
