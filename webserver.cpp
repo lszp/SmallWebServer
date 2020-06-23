@@ -118,22 +118,22 @@ void WebServer::eventListen()
 
     //epoll创建内核事件表
     epoll_event events[MAX_EVENT_NUMBER];
-    m_epollfd = epoll_create(5);
+    m_epollfd = epoll_create(5);  // 生成epoll专用的文件描述符，其实是在内核申请空间，用来存放你想关注的socket fd上是否发生以及发生了什么事，size就是在epoll fd上能关注的最大socket fd数
     assert(m_epollfd != -1);
 
     utils.addfd(m_epollfd, m_listenfd, false, m_TRIGMode);
     http_conn::m_epollfd = m_epollfd;
 
-    ret = socketpair(PF_UNIX, SOCK_STREAM, 0, m_pipefd);
+    ret = socketpair(PF_UNIX, SOCK_STREAM, 0, m_pipefd);  // 创建一对套接字进行进程间通信（IPC），参数（协议族，协议，类型，套接字柄对）SOCK_STREAM基于TCP。套接字柄对作用相同，可进行读写双向操作。
     assert(ret != -1);
     utils.setnonblocking(m_pipefd[1]);
     utils.addfd(m_epollfd, m_pipefd[0], false, m_TRIGMode);
 
-    utils.addsig(SIGPIPE, SIG_IGN);
-    utils.addsig(SIGALRM, utils.sig_handler, false);
+    utils.addsig(SIGPIPE, SIG_IGN);  // SIGPIPE 终止进程
+    utils.addsig(SIGALRM, utils.sig_handler, false);  // SIGALRM 当进程的计时器到期时，SIGALRM信号交付给进程。
     utils.addsig(SIGTERM, utils.sig_handler, false);
 
-    alarm(TIMESLOT);
+    alarm(TIMESLOT);  // alarm()用来设置信号SIGALRM在经过参数seconds指定的秒数后传送给目前的进程
 }
 
 void WebServer::timer(int connfd, struct sockaddr_in client_address)
@@ -181,7 +181,9 @@ bool WebServer::dealclinetdata()
     socklen_t client_addrlength = sizeof(client_address);
     if (0 == m_TRIGMode)
     {
-        int connfd = accept(m_listenfd, (struct sockaddr *)&client_address, &client_addrlength);
+        int connfd = accept(m_listenfd, (struct sockaddr *)&client_address, &client_addrlength); 
+        // accept()系统调用主要用在基于连接的套接字类型，比如SOCK_STREAM和SOCK_SEQPACKET。它提取出所监听套接字的等待连接队列中第一个连接请求，
+        // 创建一个新的套接字，并返回指向该套接字的文件描述符。新建立的套接字不在监听状态，原来所监听的套接字也不受该系统调用的影响。
         if (connfd < 0)
         {
             LOG_ERROR("%s:errno is:%d", "accept error", errno);
@@ -224,7 +226,7 @@ bool WebServer::dealwithsignal(bool& timeout, bool& stop_server)
     int ret = 0;
     int sig;
     char signals[1024];
-    ret = recv(m_pipefd[0], signals, sizeof(signals), 0);
+    ret = recv(m_pipefd[0], signals, sizeof(signals), 0);  // 从TCP另一端接受数据，signals为缓冲区，返回接受的字节数。
     if (ret == -1)
     {
         return false;
@@ -359,7 +361,7 @@ void WebServer::eventLoop()
 
     while (!stop_server)
     {
-        int number = epoll_wait(m_epollfd, events, MAX_EVENT_NUMBER, -1);
+        int number = epoll_wait(m_epollfd, events, MAX_EVENT_NUMBER, -1);  // 轮询I/O事件的发生, event 用于回传代处理事件的数组，-1 阻塞，等待I/O事件发生的超时值。
         if (number < 0 && errno != EINTR)
         {
             LOG_ERROR("%s", "epoll failure");

@@ -154,7 +154,7 @@ void Utils::init(sort_timer_lst timer_lst, int timeslot)
 //对文件描述符设置非阻塞
 int Utils::setnonblocking(int fd)
 {
-    int old_option = fcntl(fd, F_GETFL);
+    int old_option = fcntl(fd, F_GETFL);  // fcntl 针对文件描述符提供控制。fd 是被参数cmd操作的描述符，F_GETFL返回正的进程ID
     int new_option = old_option | O_NONBLOCK;
     fcntl(fd, F_SETFL, new_option);
     return old_option;
@@ -167,13 +167,18 @@ void Utils::addfd(int epollfd, int fd, bool one_shot, int TRIGMode)
     event.data.fd = fd;
 
     if (1 == TRIGMode)
-        event.events = EPOLLIN | EPOLLET | EPOLLRDHUP;
+        event.events = EPOLLIN | EPOLLET | EPOLLRDHUP;  
+        // 常用事件类型：EPOLLIN:文件描述符可读；EPOLLOUT:可写；EPOLLPRI:文件描述符有紧急数据可读；EPOLLERR：发生错误；EPOLLHUP:被挂断；EPOLLET:文件描述符有事发生。
     else
         event.events = EPOLLIN | EPOLLRDHUP;
 
     if (one_shot)
         event.events |= EPOLLONESHOT;
-    epoll_ctl(epollfd, EPOLL_CTL_ADD, fd, &event);
+        // et模式需要循环读取，当在读取过程中，有新事件到达时，可能触发其他线程处理这个socket，这就乱了。EPOLL_ONESHOT就是用来避免这种情况，一个线程处理完一个socket数据
+        // 也就是触发 EAGAIN errno时候，应该重置 EPOLL_ONESHOT 的 flag ，这时，新到的事件就可以重新进入触发流程了。
+        // EPOLL_ONESHOT 原理：每次触发事件后，将事件注册从fd上删除，就不会再被追踪到，下次需要epoll_ctl的EPOLL_CTL_MOD来手动添加。
+
+    epoll_ctl(epollfd, EPOLL_CTL_ADD, fd, &event);  // 该函数用于控制epoll文件描述符上的事件，可以注册事件（EPOLL_CTL_ADD）、修改事件（EPOLL_CTL_MOD）、删除事件（EPOLL_CTL_DEL）
     setnonblocking(fd);
 }
 
@@ -195,8 +200,8 @@ void Utils::addsig(int sig, void(handler)(int), bool restart)
     sa.sa_handler = handler;
     if (restart)
         sa.sa_flags |= SA_RESTART;
-    sigfillset(&sa.sa_mask);
-    assert(sigaction(sig, &sa, NULL) != -1);
+    sigfillset(&sa.sa_mask);  // 将所有信号付给 sa_mask信号集中
+    assert(sigaction(sig, &sa, NULL) != -1);  // sigaction()会依参数signum指定的信号编号来设置该信号的处理函数。参数signum可以指定SIGKILL和SIGSTOP以外的所有信号。
 }
 
 //定时处理任务，重新定时以不断触发SIGALRM信号
