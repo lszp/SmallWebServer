@@ -239,9 +239,11 @@ bool http_conn::read_once()
     int bytes_read = 0;
     while (true)
     {
+        // 从套接字接受数据，存储在m_read_buf缓冲区
         bytes_read = recv(m_sockfd, m_read_buf + m_read_idx, READ_BUFFER_SIZE - m_read_idx, 0);
         if (bytes_read == -1)
         {
+            // 非阻塞ET模式下，需要一次性将数据读完
             if (errno == EAGAIN || errno == EWOULDBLOCK)
                 break;
             return false;

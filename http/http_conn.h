@@ -32,7 +32,7 @@ public:
     static const int FILENAME_LEN = 200;
     static const int READ_BUFFER_SIZE = 2048;
     static const int WRITE_BUFFER_SIZE = 1024;
-    enum METHOD
+    enum METHOD  // 报文请求方法，本项目只用到GET和POST
     {
         GET = 0,
         POST,
@@ -44,13 +44,13 @@ public:
         CONNECT,
         PATH
     };
-    enum CHECK_STATE
+    enum CHECK_STATE  // 主状态机的状态
     {
         CHECK_STATE_REQUESTLINE = 0,
         CHECK_STATE_HEADER,
         CHECK_STATE_CONTENT
     };
-    enum HTTP_CODE
+    enum HTTP_CODE  // 报文解析的结果
     {
         NO_REQUEST,
         GET_REQUEST,
@@ -61,7 +61,7 @@ public:
         INTERNAL_ERROR,
         CLOSED_CONNECTION
     };
-    enum LINE_STATUS
+    enum LINE_STATUS  // 从状态机的状态
     {
         LINE_OK = 0,
         LINE_BAD,
@@ -76,28 +76,28 @@ public:
     void init(int sockfd, const sockaddr_in &addr, char *, int, int, int, string user, string passwd, string sqlname);
     void close_conn(bool real_close = true);
     void process();
-    bool read_once();
-    bool write();
+    bool read_once();  // 读取浏览器端发来的全部数据
+    bool write();  // 相应报文写入函数
     sockaddr_in *get_address()
     {
         return &m_address;
     }
-    void initmysql_result(connection_pool *connPool);
-    void initresultFile(connection_pool *connPool);
+    void initmysql_result(connection_pool *connPool);  // 同步线程初始化数据库读取表
+    void initresultFile(connection_pool *connPool);  // CGI使用线程池初始化数据库表
     int timer_flag;
     int improv;
 
 
 private:
     void init();
-    HTTP_CODE process_read();
-    bool process_write(HTTP_CODE ret);
+    HTTP_CODE process_read();  // 从m_read_buff读取，并处理请求报文
+    bool process_write(HTTP_CODE ret);  // 像m_write_buff写入响应报文数据
     HTTP_CODE parse_request_line(char *text);
     HTTP_CODE parse_headers(char *text);
     HTTP_CODE parse_content(char *text);
-    HTTP_CODE do_request();
-    char *get_line() { return m_read_buf + m_start_line; };
-    LINE_STATUS parse_line();
+    HTTP_CODE do_request();  // 生成相应报文
+    char *get_line() { return m_read_buf + m_start_line; };  // m_start_line是已解析的字符，get_line用于将指针后移，指向未处理的字符
+    LINE_STATUS parse_line();  // 从状态机读取一行，分析是请求报文的哪一部分
     void unmap();
     bool add_response(const char *format, ...);
     bool add_content(const char *content);
@@ -118,8 +118,8 @@ private:
     int m_sockfd;
     sockaddr_in m_address;
     char m_read_buf[READ_BUFFER_SIZE];
-    int m_read_idx;
-    int m_checked_idx;
+    int m_read_idx;  // 缓冲区中m_read_buff中数据的最后一个字节的下一个位置
+    int m_checked_idx;  // m_read_buff读取位置m_checked_idx
     int m_start_line;
     char m_write_buf[WRITE_BUFFER_SIZE];
     int m_write_idx;

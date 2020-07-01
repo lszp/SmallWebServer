@@ -48,6 +48,7 @@ threadpool<T>::threadpool( int actor_model, connection_pool *connPool, int threa
             delete[] m_threads;
             throw std::exception();
         }
+        // 将线程进行分离后，不用单独对工作线程进行回收
         if (pthread_detach(m_threads[i]))
         {
             delete[] m_threads;
@@ -72,7 +73,7 @@ bool threadpool<T>::append(T *request, int state)
     request->m_state = state;
     m_workqueue.push_back(request);
     m_queuelocker.unlock();
-    m_queuestat.post();
+    m_queuestat.post();  // 信号量提醒有任务要处理
     return true;
 }
 template <typename T>
@@ -101,15 +102,15 @@ void threadpool<T>::run()
 {
     while (true)
     {
-        m_queuestat.wait();
+        m_queuestat.wait();  // 信号量等待
         m_queuelocker.lock();
         if (m_workqueue.empty())
         {
             m_queuelocker.unlock();
             continue;
         }
-        T *request = m_workqueue.front();
-        m_workqueue.pop_front();
+        T *request = m_workqueue.front();  // 从请求队列中取出第一个任务
+        m_workqueue.pop_front();  // 将任务从请求队列中删除
         m_queuelocker.unlock();
         if (!request)
             continue;
