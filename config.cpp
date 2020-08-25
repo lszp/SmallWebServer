@@ -25,7 +25,7 @@ Config::Config(){
     //关闭日志,默认不关闭
     close_log = 0;
 
-    //并发模型,默认是proactor
+    //并发模型,默认是proactor，Proactor模型用于异步I/O操作，Reactor模型用于同步I/O操作。
     actor_model = 0;
 }
 
